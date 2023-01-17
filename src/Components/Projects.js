@@ -11,6 +11,81 @@ export default function Project() {
 
       <div className="pcontent">
         <div className="card card-1">
+          <div className="card_content bgblue">
+            <div className="ctitle">Jupiter TV</div>
+            <div className="ccontext">
+              Jupiter TV is one stop entertainment hub for you, you will find
+              all the latest , famous and trending movies & TV series here. This
+              website is build using React and Redux.
+            </div>
+
+            <br />
+
+            <a
+              href="https://jupiter-tv.netlify.app/"
+              className="projbut"
+              target="_blank"
+            >
+              <div className="text1">Visit</div>
+
+              <span className="tline"></span>
+              <span className="sline"></span>
+              <span className="fline"></span>
+            </a>
+          </div>
+        </div>
+
+        <div className="card card-1">
+          <div className="card_content bgyellow">
+            <div className="ctitle">Fitness Buddy</div>
+            <div className="ccontext">
+              Fitness Buddy will help you to gain some muscles. fitness buddy
+              have varieties of excercises.Fitness buddy is build using react
+              and all the excercises fetch from API.
+            </div>
+
+            <br />
+
+            <a
+              href="https://fitness-budy.netlify.app/"
+              className="projbut"
+              target="_blank"
+            >
+              <div className="text1">Visit</div>
+
+              <span className="tline"></span>
+              <span className="sline"></span>
+              <span className="fline"></span>
+            </a>
+          </div>
+        </div>
+
+        <div className="card card-1">
+          <div className="card_content bgpink">
+            <div className="ctitle">Tailor Buddy</div>
+            <div className="ccontext">
+              Tailor Buddy is QR based tailor management web-app.It has
+              integration with Google calender to manage the delivery schedule.
+              Build with HTML,css,MySQL,PHP.
+            </div>
+
+            <br />
+
+            <a
+              href="https://raniladiestailor.42web.io/?i=1"
+              className="projbut"
+              target="_blank"
+            >
+              <div className="text1">Visit</div>
+
+              <span className="tline"></span>
+              <span className="sline"></span>
+              <span className="fline"></span>
+            </a>
+          </div>
+        </div>
+
+        <div className="card card-1">
           <div className="card_content bgpink">
             <div className="ctitle">Tenzies Game</div>
             <div className="ccontext">
@@ -36,7 +111,7 @@ export default function Project() {
         </div>
 
         <div className="card card-2">
-          <div className="card_content bgyellow">
+          <div className="card_content bgblue">
             <div className="ctitle">Meme Generator</div>
             <div className="ccontext">
               This is Meme-Generator web-app through which you can generate
@@ -61,7 +136,7 @@ export default function Project() {
         </div>
 
         <div className="card card-3">
-          <div className="card_content bgblue">
+          <div className="card_content bgyellow">
             <div className="ctitle">Quiz App</div>
             <div className="ccontext">
               This is quiz web-app made with React. The quiz questions are
@@ -86,7 +161,7 @@ export default function Project() {
         </div>
 
         <div className="card card-4">
-          <div className="card_content bgpink">
+          <div className="card_content  bgyellow">
             <div className="ctitle">Airbnb Clone</div>
             <div className="ccontext">
               This is Airbnb clone made with React.
@@ -112,7 +187,7 @@ export default function Project() {
         </div>
 
         <div className="card card-5">
-          <div className="card_content bgyellow">
+          <div className="card_content bgpink">
             <div className="ctitle">Todo</div>
             <div className="ccontext">
               This is Todo web-app made with React where you can store your

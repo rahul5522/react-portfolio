@@ -68,11 +68,11 @@ export default function Navbar() {
       <nav className="navbar1">
         <div className="nav-container">
           <a className="profile-container">
-            <img
+            {/* <img
               className="profile"
-              src={require("../images/my-profile.jpg")}
+              src={require("../images/3d-avatar.png")}
               alt="Ooops"
-            ></img>
+            ></img> */}
             <span>
               <span className="pink">R</span>
               <span className="orange">a</span>
@@ -124,24 +124,32 @@ export default function Navbar() {
           &times;
         </a>
         <div className="overlay-content">
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Clients</a>
-          <a href="#">Contact</a>
+          <a onClick={toggle} href="#aboutMe">
+            About
+          </a>
+          <a onClick={toggle} href="#skills">
+            Skills
+          </a>
+          <a onClick={toggle} href="#projects">
+            Project
+          </a>
+          <a onClick={toggle} href="#contact">
+            Contact
+          </a>
         </div>
 
         <div className="nav-social">
           <a href="https://twitter.com/RahulWa06202555">
-            <FontAwesomeIcon icon={faTwitter} size="2x" color="black" />
+            <FontAwesomeIcon icon={faTwitter} size="2x" color="white" />
           </a>
           <a href="https://github.com/rahul5522">
-            <FontAwesomeIcon icon={faGithub} size="2x" color="black" />
+            <FontAwesomeIcon icon={faGithub} size="2x" color="white" />
           </a>
           <a href="https://www.instagram.com/rahul.waghmare/">
-            <FontAwesomeIcon icon={faInstagram} size="2x" color="black" />
+            <FontAwesomeIcon icon={faInstagram} size="2x" color="white" />
           </a>
           <a href="https://www.linkedin.com/in/rahul-waghmare-2b510b173/">
-            <FontAwesomeIcon icon={faLinkedin} size="2x" color="black" />
+            <FontAwesomeIcon icon={faLinkedin} size="2x" color="white" />
           </a>
         </div>
       </div>
