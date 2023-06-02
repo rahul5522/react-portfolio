@@ -8,6 +8,30 @@ export default function Project() {
         <span className="orange">R</span>
         <span className="green">O</span>JECTS
       </div>
+    
+    <div className="pcontent">
+        <div className="card card-1">
+          <div className="card_content bgblue">
+            <div className="ctitle">Bird App</div>
+            <div className="ccontext">
+              BirdApp is full Stack MERN application basically the clone of twitter where user can login make friends and share their thoughts via tweets.The UI is build using React[Material UI] & for state i have used management Redux.Backend is created using Express JS and Mongo DB is used for storing app data.
+            </div>
+
+            <br />
+
+            <a
+              href="https://birdapp-s7om.onrender.com/"
+              className="projbut"
+              target="_blank"
+            >
+              <div className="text1">Visit</div>
+
+              <span className="tline"></span>
+              <span className="sline"></span>
+              <span className="fline"></span>
+            </a>
+          </div>
+        </div>
 
       <div className="pcontent">
         <div className="card card-1">
